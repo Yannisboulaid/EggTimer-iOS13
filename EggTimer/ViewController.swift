@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     var totalTime = 0
     var secondsPassed = 0
     var player: AVAudioPlayer?
-    var test2 = 0
+    var test3 = 0
     
     @IBOutlet weak var progressBar: UIProgressView!
     @IBOutlet weak var labelTimer: UILabel!
@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     {
         progressBar.progress = 0
         secondsPassed = 0
-        test2 = 1
+        test3 = 1
 
         timer.invalidate()
         let choix = sender.currentTitle
